@@ -1,0 +1,15 @@
+server:
+  port: 2222
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configurations
+  profiles:
+     active: native
+
+security:
+  user:
+    password: test

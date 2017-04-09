@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: registry
+  cloud:
+    config:
+      uri: http://localhost:2222
+      fail-fast: true
+      user: user
+      password: test
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
