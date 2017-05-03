@@ -16,8 +16,6 @@
         <module>infrastructure/api-gateway-service</module>
         <module>infrastructure/hystrix-dashboard</module>
         <module>players-service</module>
-        <module>comments-service</module>
-        <module>rating-service</module>
     </modules>
 
 </project>

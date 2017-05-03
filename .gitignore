@@ -113,3 +113,6 @@ rating-service/rating-service.iml
 rating-service/src/
 rating-service/target/
 spring-cloud-microservices.iml
+infrastructure/auth-service/auth-service.iml
+infrastructure/hystrix-dashboard/hystrix-dashboard.iml
+/ui-app/node_modules/
